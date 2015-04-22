@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>可穿戴的N＋种可能 | Called it Canvas</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="yo！我有了一块Apple watch&amp;emsp;&amp;emsp;正值Apple watch正式开始对外预售，并且持续霸占着微博热搜的头条，热度惊人（或者说广告费？）。这显然也会带动更多的视线转向智能可穿戴设备。本人，也在完全凭个人对这个产品的臆想，以及抱着成为未来开发者在watch里做出自己的尝试的美好期待，预定了一个sport的版本。
+这个注定迟期20岁的生日礼物，已经坑爹的要到6月份才能到货了＝">
+<meta property="og:type" content="website">
+<meta property="og:title" content="可穿戴的N＋种可能">
+<meta property="og:url" content="http://cherrychocolate.wang/undefined/undefined/undefined/关于可穿戴的一点脑洞/index.html">
+<meta property="og:site_name" content="Called it Canvas">
+<meta property="og:description" content="yo！我有了一块Apple watch&amp;emsp;&amp;emsp;正值Apple watch正式开始对外预售，并且持续霸占着微博热搜的头条，热度惊人（或者说广告费？）。这显然也会带动更多的视线转向智能可穿戴设备。本人，也在完全凭个人对这个产品的臆想，以及抱着成为未来开发者在watch里做出自己的尝试的美好期待，预定了一个sport的版本。
+这个注定迟期20岁的生日礼物，已经坑爹的要到6月份才能到货了＝">
+<meta property="og:image" content="http://7x00mn.com1.z0.glb.clouddn.com/可穿戴02.png">
+<meta property="og:image" content="http://7x00mn.com1.z0.glb.clouddn.com/baymax.jpg">
+<meta property="og:image" content="http://7x00mn.com1.z0.glb.clouddn.com/可穿戴01.jpg">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="可穿戴的N＋种可能">
+<meta name="twitter:description" content="yo！我有了一块Apple watch&amp;emsp;&amp;emsp;正值Apple watch正式开始对外预售，并且持续霸占着微博热搜的头条，热度惊人（或者说广告费？）。这显然也会带动更多的视线转向智能可穿戴设备。本人，也在完全凭个人对这个产品的臆想，以及抱着成为未来开发者在watch里做出自己的尝试的美好期待，预定了一个sport的版本。
+这个注定迟期20岁的生日礼物，已经坑爹的要到6月份才能到货了＝">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+
+  <link rel="stylesheet" href="/css/style.css" type="text/css">
+  
+    <link rel="stylesheet" href="/fancybox/jquery.fancybox.css" type="text/css">
+  
+  
+    <link rel="stylesheet" href="/scrollLoading/style.css" type="text/css">
+  
+  
+
+
+  
+    <link href='//fonts.useso.com/css?family=Titillium+Web:300,400,600' rel='stylesheet' type='text/css'>
+    <link href="//fonts.useso.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  
+
+</head>
+
+<body>
+  <div id="wrap">
+    <header id="header">
+  <div id="header-outer" class="outer">
+    <div class="container">
+      <div class="container-inner">
+        <div id="header-title">
+          <h1 class="logo-wrap">
+            <a href="/" class="logo"></a>
+          </h1>
+          
+            <h2 class="subtitle-wrap">
+              <p class="subtitle">Why should I subdue the world if I can enchant it.</p>
+            </h2>
+          
+        </div>
+        <div id="header-inner" class="nav-container">
+          <a id="main-nav-toggle" class="nav-icon"></a>
+          <div class="nav-container-inner">
+            <ul id="main-nav">
+              
+                <li class="main-nav-list-item" ><a class="main-nav-list-link" href="/">Home</a></li>
+              
+                    <ul class="main-nav-list"><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/design/">design</a></li><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/产品/">产品</a></li></ul>
+                  
+                <li class="main-nav-list-item" ><a class="main-nav-list-link" href="/undefined/undefined/undefined/hello-world">Lab</a></li>
+              
+                <li class="main-nav-list-item" ><a class="main-nav-list-link" href="/about/index.html">About</a></li>
+              
+            </ul>
+            <!--<nav id="sub-nav">
+              <div id="search-form-wrap">
+              #  <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" results="0" class="search-form-input" placeholder="搜索"><input type="hidden" name="q" value="site:http://cherrychocolate.wang"></form>
+              </div>  -->
+            <div class="search">
+                <form action="//baidu.com/baidu" method="get" accept-charset="utf-8">
+                <input type="search" name="word" results="0" placeholder="search">
+                <input type="hidden" name="si" value="cherrychocolate.wang">
+                <input name=tn type=hidden value="bds">
+                <input name=cl type=hidden value="3">
+	            <input name=ct type=hidden value="2097152">
+                <input name=s type=hidden value="on">
+                </form>
+            </div>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+    <div class="container">
+      <div class="main-body container-inner">
+        <div class="main-body-inner">
+          <section id="main">
+            <div class="main-body-header">
+
+              <h1 class="header"><em class="page-title-link" data-url="/undefined/undefined/undefined/关于可穿戴的一点脑洞/">可穿戴的N＋种可能</em></h1>
+            </div>
+            <div class="main-body-content">
+              
+  <article id="post-关于可穿戴的一点脑洞" class="article article-single article-type-post" itemscope itemprop="blogPost">
+    <div class="article-inner">
+      <!--  -->
+      
+        <header class="article-header">
+          
+  
+    <h1 class="article-title" itemprop="name">
+      可穿戴的N＋种可能
+    </h1>
+  
+
+        </header>
+      
+      <p class="article-byline">
+        <a href="/undefined/undefined/undefined/关于可穿戴的一点脑洞/" class="article-date">
+  <time datetime="2015-04-11T16:00:44.000Z" itemprop="datePublished">2015-04-12</time>
+</a>
+      </p>
+      <div class="article-entry" itemprop="articleBody">
+        <h3 id="yo！我有了一块Apple_watch">yo！我有了一块Apple watch</h3><p>&emsp;&emsp;正值Apple watch正式开始对外预售，并且持续霸占着微博热搜的头条，热度惊人（或者说广告费？）。这显然也会带动更多的视线转向智能可穿戴设备。本人，也在完全凭个人对这个产品的臆想，以及抱着成为未来开发者在watch里做出自己的尝试的美好期待，预定了一个sport的版本。</p>
+<p><code>这个注定迟期20岁的生日礼物，已经坑爹的要到6月份才能到货了＝＝。</code></p>
+<p><img src="http://7x00mn.com1.z0.glb.clouddn.com/可穿戴02.png" alt=""></p>
+<hr>
+<blockquote>
+<p>前言：</p>
+<h3 id="我为什么会想去拥有一块Apple_watch">我为什么会想去拥有一块Apple watch</h3><ul>
+<li>现有最佳：作为一代的产品，尽管watch还没有正式上手也没有大量用户的使用评价，它也肯定不会是最成熟的一个版本。但相比之前已经上市的其他产品无论是手环，手表包括眼镜，从现有的Apple watch信息来看，其做工，应用平台和系统等应算得上最为优秀的了。</li>
+</ul>
+</blockquote>
+<ul>
+<li><p>作为一个消费者，现有的可穿戴设备还不够成熟。不像手机那样成为生活里不可获缺的存在（对大部分人来说），可穿戴设备并非无可替代，甚至作为产品仅停留在逼格的体现上。如果大部分应用场景在手机端都可以得到解决，又要如何把用户推向还不成熟的可穿戴呢。从我的角度理解：理想很美好，未来很期待，现实较骨感，它不够成熟，在实现所有人的脑洞之前，还需要不断的磨合。</p>
+</li>
+<li><p>作为一个计划从事相关行业的人或是爱好者，可穿戴设备，就好比“风口上的猪“，是一个充满机遇与潜力以及暗坑重重尚未被挖掘出的领域。尽管嘘声不绝，我更愿意将watch与iPhone一起比较，watch的未来短时期是无法定棺的，一如iPhone刚出世时足够惊艳但还谈不上颠覆，但是他足以有颠覆行业的潜力。所以随着第四代产品面世，也拉开了智能手机的热潮。watch同样有这个潜力。</p>
+</li>
+<li>!还有一点，作为初代的产品开发者角度，如果在</li>
+</ul>
+<h5 id="Apple_watch：不成熟＋有潜力＋目测现有最佳">Apple watch：不成熟＋有潜力＋目测现有最佳</h5><p>All in all，作为一个富有探索精神，好奇心，以及小小的野望与幻想的脑洞青年，带着在可穿戴领域发现更多的可能性的希望，在经济情况与不违背信仰的情况下，拥有一支Apple watch是件情理之中的事。</p>
+<p>然后就是，关于可穿戴的那些脑洞…</p>
+<hr>
+<h2 id="可穿戴设备的N＋种可能">可穿戴设备的N＋种可能</h2><h4 id="形态：">形态：</h4><p>当前的可穿戴设备有很多种，眼镜，手环，项链，手表…<br>作为可穿戴设备，那么注定在便携方面有着巨大的优势，同时也不可避免的会有诸多功能的阉割。屏幕，以及用户操作的限制，应该是目前可穿戴设备的一个主要的瓶颈。智能手机的出生，本身可以看作一次用户体验的巨大的飞跃。可触摸的屏幕操作，手势操作，能让人迅速的接受上手，与之前的按键式的手机设备也有的更方便的携带型，以及娱乐方面的体验优势。</p>
+<p>这就好比好比大白变成了装甲大白，武力值大升，不是暖男的气质。回到可穿戴设备，尽管设计者的脑海里都能浮现出那么一个绝佳的应用场景。</p>
+<p><img src="http://7x00mn.com1.z0.glb.clouddn.com/baymax.jpg" alt="大白"></p>
+<p>现有的可穿戴归根在于产品设计以及交换模式的不成熟，尽管在某一些场景里拥有巨大优势，但是还没有成为一个全面性的产品，应用在生活的方方面面。</p>
+<p>那么，如果称为主流，那就是一款怎么样的产品。</p>
+<p>或许可穿戴设备的产品，不能作为单一的设备来装备用户。一套组合性的穿戴设备，在每一个都各司其职而共同营造出的用户体验，也许才能超过现有的移动手机的体验取代称为我们联系，生活，娱乐的新方式。</p>
+<p>说说我的的脑洞的，一个新的思考方式来靠砖引玉：可穿戴设备通过眼镜，手环，以及耳机三个设备联动，在一个操作的环境系统下，共同营造视觉听觉与操作的联动，而产生更佳的体验。分离输入端，输出端以及操作端，将每一个体验分离从而做到极致，达到超出现有手机的交互体验效果。当我们的手机从众多的设备组合发展起来成为主流的产品时，下一个路口或许就是拆分每一个体验，更佳灵活而针对性的应对每一个用户场景。</p>
+<p>当然，作为现有的用户的消费角度，以及是否对用户体验更加高的需求，还有很多问题需要去思考解决。</p>
+<h4 id="生态：">生态：</h4><p>6，7年前，大部分人应该对应用市场都没有概念，但是，应用市场，系统生态都成了耳边的高频词语。我们利用ideal在拓宽着有限的应急设备，创造出了更多的功能。那么，可穿戴的未来，以及是否可以赢得市场，一半都要源自这里。即使是未来，这种模式，短时间也不会有所改变。</p>
+<p>只有在服务于用户的同时，创造了更多创造财富的机会，才会有更多的人涌入这个领域。价值体现，不过如此。</p>
+<hr>
+<h3 id="脑洞，应用的＋2种可能">脑洞，应用的＋2种可能</h3><p>突然之间的脑洞大开，给我去预购watch添了最后一把火🔥！</p>
+<h5 id="心动app—真爱测验&amp;爱情表白">心动app—真爱测验&amp;爱情表白</h5><p>什么实在可穿戴设备上独具优势，应用场景绝佳的应用？从硬件角度来看，有关运动，健康的传感器们，是可穿戴设备的独家de优势项目。</p>
+<p>心动💓：基于心率的传感的传感器，传达出人的情感变化与幅度。让一个人的心跳可视，诉说着“我”对“你”感觉！更是一个测一测暗恋的神器，是否想要知道，心底暗恋的ta，是否对我也情投意合？或是，一定要诉说一下我对ni的爱意！情书💌什么的弱爆了，直接分享我对你的心跳！</p>
+<p>［没想到，我也开始成长成一只文案狗了］</p>
+<p>交互的界面，后续会公布，这批文章实在拖欠的有点久了，现在已经是凌晨1:45。当然，更加理想的是能完成这个demo。</p>
+<hr>
+<h5 id="寻找我的…—-做一个守卫者">寻找我的…—-做一个守卫者</h5><p>手表用了追踪，也是个非常舒适的体验。比起端起手机，追踪位置就像我们日常看时间一样便捷，或许是一个非常不错的提议。</p>
+<p>Wait！追踪什么！</p>
+<p>这个脑洞，就不是纯应用，而是一个需要外部硬件共同达成的产品:</p>
+<blockquote>
+<p>定位磁贴／环（外形得是情况而定）＋追踪app</p>
+</blockquote>
+<p>（盗张图）<img src="http://7x00mn.com1.z0.glb.clouddn.com/可穿戴01.jpg" alt="磁贴"></p>
+<p>目标用户：条例无能经常性丢失东西星人；爱狗人士；强责任父母…</p>
+<p>ta是什么：利用轻便，高隐蔽性，可定位，有助于寻找定位的拓展硬件＋可穿戴设备或是移动端设备，寻找定位对于我们很重要但是也易于丢失且丢失成本非常高的事／物。使用在我们日常的学生卡，钱包，珍藏的日记本，重要文件，护照，宠物，孩子的身上，…..同时高隐蔽以及轻便性，能让避免偷盗者轻易发现。</p>
+<p>尽管一个手机就可以满足实现这个产品的要求。但是，在持续需要查看屏幕的场景，手表的用户体验要比手机来的方便许多。这一类app的出生，尽管不是基于可穿戴设备的独有的功能优势，但拥有可穿戴设备独佳的用户体验。</p>
+<p>btw：可穿戴设备的被盗可能性必然会比手机等移动设备来的要低，利用手表（或其他可穿戴设备）警报手机的扒窃，追踪反向我们的手机，控制手机的内容锁定防止破解。针对现在手机不仅仅作为一个通信工具更是涉及到大量重要的隐私及财产信息的一个终端的情况，防止手机的遗失保护手机信息的隐秘对大部分人都是有需求的。</p>
+<p>目前这仅仅是一个脑洞，关于这个app 的策划，还有市场分析甚至是交互的设计，也许会在下一篇文章来整理。若有看官发现不合理的地方，尽情砸过来（≧∇≦）。</p>
+<pre><code>cherry的总结时刻：
+
+可穿戴设备只有在他的独有的优势场景，亦或是用户体验可以优化致更好的场景，才能融入人们的生活，甚至慢慢改变我们的生活。
+
+必然的也会不断地探索出，属于这个产品的潜力。挖掘出，新的交互操作和用户体验。改善我们的生活的许多方面<span class="attribute">...</span><span class="built_in">.</span>我是在这样的期待着。
+
+诚然，下一个改变生活的产品是什么，远不能就此定论。但，在我们摸索的路途中，所有人都在一同成长着。
+</code></pre>
+      </div>
+      <footer class="article-footer">
+        <a data-url="http://cherrychocolate.wang/undefined/undefined/undefined/关于可穿戴的一点脑洞/" data-id="ci8s00h0g0001p0serkr52ee0" class="article-share-link">分享到</a>
+        
+        
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/脑洞杂谈，产品/">脑洞杂谈，产品</a></li></ul>
+
+      </footer>
+    </div>
+  </article> 
+   
+  <section id="comments">
+    <!-- 多说评论框 start -->
+    <div class="ds-thread" data-thread-key="post-关于可穿戴的一点脑洞" data-title="可穿戴的N＋种可能" data-url="http://cherrychocolate.wang/undefined/undefined/undefined/关于可穿戴的一点脑洞/"></div>
+    <!-- 多说评论框 end -->
+    <!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+    <script type="text/javascript">
+    var duoshuoQuery = {short_name:'cherrychocolate'};
+      (function() {
+        var ds = document.createElement('script');
+        ds.type = 'text/javascript';ds.async = true;
+        ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+        ds.charset = 'UTF-8';
+        (document.getElementsByTagName('head')[0] 
+         || document.getElementsByTagName('body')[0]).appendChild(ds);
+      })();
+      </script>
+    <!-- 多说公共JS代码 end -->
+  </section>
+  
+
+            </div>
+          </section>
+          <aside id="sidebar">
+  <a class="sidebar-toggle" title="Expand Sidebar"><i class="toggle icon"></i></a>
+  <div class="sidebar-top">
+    <p>关注我 :</p>
+    <ul class="social-links">
+      
+        <li><a class="social-tooltip" title="google_plus" href="/"><i id="icon-google_plus" class="icon"></i></a></li>
+      
+        <li><a class="social-tooltip" title="github" href="https://github.com/cherrychocolate"><i id="icon-github" class="icon"></i></a></li>
+      
+        <li><a class="social-tooltip" title="weibo" href="http://weibo.com/5494092080/"><i id="icon-weibo" class="icon"></i></a></li>
+      
+        <li><a class="social-tooltip" title="rss" href="/atom.xml"><i id="icon-rss" class="icon"></i></a></li>
+      
+    </ul>
+  </div>
+  
+  <div class="widgets-container">
+    
+      
+  <div class="widget-wrap">
+    <h3 class="widget-title">最新文章</h3>
+    <div class="widget">
+      <ul id="recent-post">
+        
+          <li>
+            <div class="item-thumbnail">
+              <a href="/undefined/undefined/undefined/cherry的博客计划/" class="thumbnail">
+  
+    <span class="thumbnail-image thumbnail-none"></span>
+  
+
+</a>
+            </div>
+            <div class="item-inner">
+              <p class="item-category"></p>
+              <p class="item-title"><a href="/undefined/undefined/undefined/cherry的博客计划/" class="title">cherry的博客计划</a></p>
+              <p class="item-date"><time datetime="2015-04-12T14:30:42.000Z" itemprop="datePublished">2015-04-12</time></p>
+            </div>
+          </li>
+        
+          <li>
+            <div class="item-thumbnail">
+              <a href="/undefined/undefined/undefined/关于可穿戴的一点脑洞/" class="thumbnail">
+  
+    <span style="background-image:url(http://7x00mn.com1.z0.glb.clouddn.com/可穿戴02.png
+)" alt="可穿戴的N＋种可能" class="thumbnail-image"></span>
+  
+
+</a>
+            </div>
+            <div class="item-inner">
+              <p class="item-category"><a class="article-category-link" href="/categories/产品/">产品</a></p>
+              <p class="item-title"><a href="/undefined/undefined/undefined/关于可穿戴的一点脑洞/" class="title">可穿戴的N＋种可能</a></p>
+              <p class="item-date"><time datetime="2015-04-11T16:00:44.000Z" itemprop="datePublished">2015-04-12</time></p>
+            </div>
+          </li>
+        
+          <li>
+            <div class="item-thumbnail">
+              <a href="/undefined/undefined/undefined/nuptIndex/" class="thumbnail">
+  
+    <span style="background-image:url(http://7x00mn.com1.z0.glb.clouddn.com/鹅厂注册默认属性.png
+)" alt="nupt首页设计改版" class="thumbnail-image"></span>
+  
+
+</a>
+            </div>
+            <div class="item-inner">
+              <p class="item-category"><a class="article-category-link" href="/categories/design/">design</a></p>
+              <p class="item-title"><a href="/undefined/undefined/undefined/nuptIndex/" class="title">nupt首页设计改版</a></p>
+              <p class="item-date"><time datetime="2015-04-01T16:00:00.000Z" itemprop="datePublished">2015-04-02</time></p>
+            </div>
+          </li>
+        
+          <li>
+            <div class="item-thumbnail">
+              <a href="/undefined/undefined/undefined/hello-world/" class="thumbnail">
+  
+    <span class="thumbnail-image thumbnail-none"></span>
+  
+
+</a>
+            </div>
+            <div class="item-inner">
+              <p class="item-category"></p>
+              <p class="item-title"><a href="/undefined/undefined/undefined/hello-world/" class="title">Hello World</a></p>
+              <p class="item-date"><time datetime="2015-03-09T17:21:39.000Z" itemprop="datePublished">2015-03-10</time></p>
+            </div>
+          </li>
+        
+          <li>
+            <div class="item-thumbnail">
+              <a href="/undefined/undefined/undefined/my-new-post/" class="thumbnail">
+  
+    <span class="thumbnail-image thumbnail-none"></span>
+  
+
+</a>
+            </div>
+            <div class="item-inner">
+              <p class="item-category"></p>
+              <p class="item-title"><a href="/undefined/undefined/undefined/my-new-post/" class="title">my new post</a></p>
+              <p class="item-date"><time datetime="2015-03-05T08:59:36.000Z" itemprop="datePublished">2015-03-05</time></p>
+            </div>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+    
+      
+  <div class="widget-wrap widget-list">
+    <h3 class="widget-title">分类</h3>
+    <div class="widget">
+      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/design/">design</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/产品/">产品</a><span class="category-list-count">1</span></li></ul>
+    </div>
+  </div>
+
+
+    
+      
+  <div class="widget-wrap widget-list">
+    <h3 class="widget-title">归档</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/04/">四月 2015</a><span class="archive-list-count">3</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/03/">三月 2015</a><span class="archive-list-count">2</span></li></ul>
+    </div>
+  </div>
+
+
+    
+      
+  <div class="widget-wrap widget-list">
+    <h3 class="widget-title">标签</h3>
+    <div class="widget">
+      <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/design/">design</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/个人作品/">个人作品</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/网页设计/">网页设计</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/脑洞杂谈，产品/">脑洞杂谈，产品</a><span class="tag-list-count">1</span></li></ul>
+    </div>
+  </div>
+
+
+    
+      
+  <div class="widget-wrap widget-float">
+    <h3 class="widget-title">标签云</h3>
+    <div class="widget tagcloud">
+      <a href="/tags/design/" style="font-size: NaNpx;">design</a><a href="/tags/个人作品/" style="font-size: NaNpx;">个人作品</a><a href="/tags/网页设计/" style="font-size: NaNpx;">网页设计</a><a href="/tags/脑洞杂谈，产品/" style="font-size: NaNpx;">脑洞杂谈，产品</a>
+    </div>
+  </div>
+
+
+    
+      
+  <div class="widget-wrap widget-list">
+    <h3 class="widget-title">链接</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="http://hexo.io">Hexo</a>
+          </li>
+        
+          <li>
+            <a href="http://www.nupter.org">MMClub</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+
+    
+  </div>
+</aside>
+        </div>
+      </div>
+    </div>
+    <footer id="footer">
+  
+  <div class="container">
+    <div class="container-inner">
+      <a id="back-to-top" href="javascript:;"><i class="icon" id="icon-angle-up"></i></a>
+      <div class="credit">
+        <h1 class="logo-wrap">
+          <a href="/" class="logo"></a>
+        </h1>
+        <p>&copy; 2015 Cherry Wang</p>
+        <p>Powered by <a href="//hexo.io/" target="_blank">Hexo</a>. Theme by <a href="//github.com/ppoffice" target="_blank">PPOffice</a></p>
+      </div>
+    </div>
+  </div>
+</footer>
+    
+
+
+  <script src="http://code.jquery.com/jquery-2.1.3.min.js"></script>
+
+
+
+  <script src="/fancybox/jquery.fancybox.pack.js" type="text/javascript"></script>
+
+
+
+  <script src="/scrollLoading/jquery.scrollLoading.js" type="text/javascript"></script>
+  <script src="/scrollLoading/main.js" type="text/javascript"></script>
+
+
+<script src="/js/html-patch.js" type="text/javascript"></script>
+<script src="/js/script.js" type="text/javascript"></script>
+
+
+
+
+  </div>
+</body>
+</html>
